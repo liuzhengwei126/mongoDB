@@ -31,6 +31,7 @@ public class Demo {
         System.out.println ("第三个版本");
         System.out.println ("第四个版本");
         System.out.println ("第五次修改");
+        System.out.println ("第六次修改");
         MongoClient client=new MongoClient();//创建连接对象
         MongoDatabase database = client.getDatabase("itcastdb");//获取数据库
         MongoCollection<Document> collection = database.getCollection("student");//获取集合
