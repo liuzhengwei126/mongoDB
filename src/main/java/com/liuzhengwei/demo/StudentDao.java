@@ -14,6 +14,7 @@ import org.bson.Document;
 public class StudentDao {
 
     public void save(String name,String sex,double age,String address){
+        System.out.println ("第五次修改");
         MongoDatabase database = MongoDBManager.getMongoDatabase ();
         MongoCollection<Document> collection = database.getCollection("student");
         Document docment=new Document();
