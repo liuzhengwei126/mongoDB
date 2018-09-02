@@ -33,6 +33,7 @@ public class Demo {
         System.out.println ("第五次修改 第二个版本");
         System.out.println ("第六次修改 第三个版本");
         System.out.println ("第七次修改 第四个版本");
+        System.out.println ("第八次修改  第八个版本");
         MongoClient client=new MongoClient();//创建连接对象
         MongoDatabase database = client.getDatabase("itcastdb");//获取数据库
         MongoCollection<Document> collection = database.getCollection("student");//获取集合
