@@ -18,6 +18,7 @@ public class MongoDBManager {
 
         private static void init(){
             System.out.println ("第五次修改");
+            System.out.println ("第七次修改");
             //连接池选项
             MongoClientOptions.Builder builder = new MongoClientOptions.Builder();//选项构建者
             //设置连接超时时间
