@@ -17,7 +17,7 @@ public class MongoDBManager {
         private static MongoClient mongoClient = null;
 
         private static void init(){
-            System.out.println ("第五次修改");
+            System.out.println ("第五次修改 第五个版本");
             System.out.println ("第七次修改");
             //连接池选项
             MongoClientOptions.Builder builder = new MongoClientOptions.Builder();//选项构建者
