@@ -27,6 +27,7 @@ public class Demo {
      */
     @Test
     public void demotest(){
+        System.out.println ("不不不不不不");
         MongoClient client=new MongoClient();//创建连接对象
         MongoDatabase database = client.getDatabase("itcastdb");//获取数据库
         MongoCollection<Document> collection = database.getCollection("student");//获取集合
@@ -142,9 +143,7 @@ public class Demo {
     @Test
     public  void  demo6(){
         System.out.println ("aaaaaaaaa");
-        System.out.println ("aaaaaaaaa");
-        System.out.println ("aaaaaaaaa");
-        System.out.println ("aaaaaaaaa");
+
 
         MongoClient client = new MongoClient ();
         MongoDatabase database = client.getDatabase ("itcastdb");
